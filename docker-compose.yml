@@ -1,11 +1,8 @@
 version: '3'
 
 services:
-  tornginx:
-    build: .
+  tor-simple-hidden-website:
     restart: always
-    ports:
-      - 127.0.0.1:9050:9050
     volumes:
       - ./tor-config:/etc/tor:Z
       - ./tor-data:/var/lib/tor:Z
