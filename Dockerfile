@@ -1,7 +1,5 @@
 FROM debian:buster-slim
 
-EXPOSE 9001
-
 RUN apt-get update && apt-get -y update && apt-get install -y --no-install-recommends
 RUN apt-get install -y nginx tor
 
