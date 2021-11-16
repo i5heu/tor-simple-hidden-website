@@ -23,4 +23,4 @@ jobs:
     - name: Build the Docker image
       run: docker build . --file Dockerfile --tag ${{secrets.DOCKER_USER}}/tor-simple-hidden-website:latest     
     - name: Docker Push
-      run: docker push -a ${{secrets.DOCKER_USER}}/tor-simple-hidden-website:latest
+      run: docker push ${{secrets.DOCKER_USER}}/tor-simple-hidden-website:latest
