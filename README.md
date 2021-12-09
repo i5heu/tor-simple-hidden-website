@@ -1,1 +1,1 @@
-# tor-hidden-service-hugo
+# tor-simple-hidden-website
