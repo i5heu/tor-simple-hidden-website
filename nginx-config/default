@@ -4,6 +4,7 @@ server {
         index index.html index.htm index.nginx-debian.html;
         server_name _;
         server_tokens off;
+        port_in_redirect off;
         location / {
                 # First attempt to serve request as file, then
                 # as directory, then fall back to displaying a 404.
